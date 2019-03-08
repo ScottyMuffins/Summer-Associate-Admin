@@ -6,7 +6,7 @@ const EmployeeSubForm = (props) => {
     return(
         <div className='subForm-container'>
             <h3 className='subForm-header'>Employee Information</h3>
-            <FormGroup novalidate>
+            <FormGroup>
                 <Label for='associateID'>Associate ID</Label>
                 <InputGroup>
                     <Input id='associateID' placeholder="" required/>
@@ -15,15 +15,9 @@ const EmployeeSubForm = (props) => {
                     </InputGroupAddon>
                 </InputGroup>
             </FormGroup>
-            <FormGroup novalidate>
+            <FormGroup>
                 <Label for='firstNameID'>First Name</Label>
                 <Input id='firstNameID' placeholder="" required/>
-                <div class="valid-feedback">
-                    Looks good!
-                </div>
-                <div class="invalid-feedback">
-                    Looks bad.
-                </div>
             </FormGroup>
             <FormGroup>
                 <Label for='middleNameID'>Middle Name</Label>
