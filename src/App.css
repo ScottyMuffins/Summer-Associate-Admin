@@ -1,33 +1,102 @@
-.App {
-  text-align: center;
+.App-container{
+  font-family: -apple-system, BlinkMacSystemFont, "Noto Sans", "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
+.App-header,
+.App-footer {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 5vmin;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.App-main{
+  min-height: 100vmin;
+  background: #dee2e6;
+}
+
+main{
+  padding: 5vmin;
+}
+
+.subForm-container{
+  margin-bottom: 10vmin;
+}
+
+.subForm-header{
+  margin-bottom: 4vmin;
+}
+
+.subForm-secondary-header{
+  margin-bottom: 3vmin;
+}
+
+textarea {
+  resize: none;
+}
+
+#bioTextArea{
+  resize:none;
+}
+
+.submit-buttons{
+  float: right;
+  margin: 0.5vmin;
+}
+
+form{
+  padding: 5vmin;
+  background: #fff;
+}
+
+.nav-tabs .nav-item.show .nav-link, 
+.nav-tabs .nav-link.active:hover {
+  border-color: #fff;
+}
+
+a.active.nav-link{
+  border-color: #fff;
+  background-color: #fff;
+}
+.nav-tabs .nav-link.active{
+  border-color: #fff;
+}
+
+.nav-link{
+  border-color: #fff;
+  background-color: rgba(255, 255, 255, 0.465);
+}
+
+.nav-link:hover{
+  cursor: pointer;
+}
+
+.nav-link.active:hover{
+  cursor: default;
+}
+
+.nav-tabs .nav-link {
+  border-color: #dee2e6;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
 }
